@@ -3,8 +3,10 @@ import './Subtotal.css';
 import CurrencyFormat from "react-currency-format";
 import { useStateValue } from './StateProvider';
 import { getBasketTotal } from './reducer';
+import { useHistory } from 'react-router-dom';
 
 function Subtotal() {
+    const history = useHistory();
     const [{ basket }, dispatch] = useStateValue();
 
     return (
@@ -15,7 +17,7 @@ function Subtotal() {
                 <>
                    <p>
                        小計 ({basket.length} 点):
-                       <strong>{value}</strong>
+                       <strong>{value = 0 ? 0 : value.toLocaleString()}</strong>
                    </p>
                     <small className="subtotal__gift">
                         <input type="checkbox" />ギフトの設定
@@ -28,7 +30,9 @@ function Subtotal() {
                 thousandSeparater={true}
                 prefix={"¥"}
             />
-            <button className="subtotal__button">レジに進む</button>
+            <button className="subtotal__button" onClick={() => { history.push('/payment') }}>
+            レジに進む
+            </button>
         </div>
     )
 }

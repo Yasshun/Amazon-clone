@@ -2,7 +2,6 @@ import React from 'react';
 import './Home.css';
 import Product from './Product';
 
-
 function Home() {
     return (
         <div className="home">
@@ -27,9 +26,9 @@ function Home() {
                 <div className="home__row">
                     <Product 
                             id="1749225"
-                            title="ゲッターズ飯田の五星三心占い2021金の羅針盤座 Kindle版"
-                            image="https://m.media-amazon.com/images/I/41jAVmNy1PL.jpg"
-                            price={792}
+                            title="最新 Apple iPad Air (10.9インチ, Wi-Fi, 64GB) - スペースグレイ (第4世代)"
+                            image="https://images-na.ssl-images-amazon.com/images/I/71TERFaiUQL._AC_SX679_.jpg"
+                            price={69080}
                             rating={2}
                         /> 
                     <Product 
@@ -47,6 +46,7 @@ function Home() {
                             rating={3}
                         /> 
                 </div>
+                
 
                 <div className="home__row">
                     <Product 
