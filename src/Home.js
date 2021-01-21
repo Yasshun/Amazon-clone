@@ -14,13 +14,14 @@ function Home() {
                         image="https://m.media-amazon.com/images/I/51GF9vRAnFL._AC_UL320_.jpg"
                         price={4980}
                         rating={4}
+                        thousandSeparater={true}
                     /> 
                     <Product 
                         id="7827852"
                         title="新型】Echo Dot (エコードット) 第4世代 - スマートスピーカー with Alexa、チャコール"
                         image="https://images-na.ssl-images-amazon.com/images/I/71EJ73NyVTL._AC_SX569_.jpg"
                         price={5980}
-                        rating={2}
+                        rating={4}
                     /> 
                 </div>
                 <div className="home__row">
@@ -29,14 +30,14 @@ function Home() {
                             title="最新 Apple iPad Air (10.9インチ, Wi-Fi, 64GB) - スペースグレイ (第4世代)"
                             image="https://images-na.ssl-images-amazon.com/images/I/71TERFaiUQL._AC_SX679_.jpg"
                             price={69080}
-                            rating={2}
+                            rating={4}
                         /> 
                     <Product 
                             id="8374937"
                             title="COMFEE' オーブントースター コンパクト 8L"
                             image="https://images-na.ssl-images-amazon.com/images/I/61rx6cU5eVL._AC_SX679_.jpg"
                             price={2580}
-                            rating={2}
+                            rating={3}
                         />  
                     <Product 
                             id="2144234"
@@ -54,6 +55,7 @@ function Home() {
                         title="サムスンC49G95TSSC オデッセイG9 Odyssey G9 49インチのゲーミング曲面ディスプレイ5k 240hz 1000R HDR1000 1MSリフティング回転G-SYNCデスクトップHD曲面スクリーンゲーミングQLED量子点スクリーン"
                         image="https://m.media-amazon.com/images/I/81RcJoVbvDL._AC_UL320_.jpg"
                         price={253000}
+                        rating={5}
                     />
                 </div>
             </div>

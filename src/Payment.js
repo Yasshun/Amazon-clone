@@ -143,7 +143,7 @@ function Payment() {
                                     displayType={"text"}
                                     prefix={"¥"}
                              />
-                             <button disabled={processing || disabled || 
+                             <button className="payment__paymentIntentButton" disabled={processing || disabled || 
                              succeed}>
                                  <span>{processing ? <p>購入中...</p> : 
                                         "購入を確定する"}</span>

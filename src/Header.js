@@ -40,12 +40,12 @@ function Header() {
                     "サインアウト" : "サインイン"}</span>
                 </div>
               </Link>
-
+              <Link to="/orders">
                 <div className="header__option">
                     <span className="header__optionLineOne">返品はこちら</span>
                     <span className="header__optionLineTwo">注文履歴</span>
                 </div>
-
+              </Link>
                 <div className="header__option">
                     <span className="header__optionLineOne">ショッピング</span>
                     <span className="header__optionLineOne">カート</span>
