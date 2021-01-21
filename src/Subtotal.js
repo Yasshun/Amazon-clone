@@ -17,7 +17,7 @@ function Subtotal() {
                 <>
                    <p>
                        小計 ({basket.length} 点):
-                       <strong>{value = 0 ? 0 : value.toLocaleString()}</strong>
+                       <strong>{value}</strong>
                    </p>
                     <small className="subtotal__gift">
                         <input type="checkbox" />ギフトの設定
@@ -27,7 +27,6 @@ function Subtotal() {
                 decimalScale={2}
                 value={getBasketTotal(basket)}
                 displayType={"text"}
-                thousandSeparater={true}
                 prefix={"¥"}
             />
             <button className="subtotal__button" onClick={() => { history.push('/payment') }}>
