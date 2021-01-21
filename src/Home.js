@@ -1,12 +1,13 @@
 import React from 'react';
 import './Home.css';
 import Product from './Product';
+import HomeImage from './HomeImage';
 
 function Home() {
     return (
         <div className="home">
             <div className="home__container">
-                <img className="home__image" src="https://images-fe.ssl-images-amazon.com/images/G/09/kindle/journeys/MGVjYjdhYTct/MGVjYjdhYTct-OGVjNTJmZjgt-w3000._CB417511840_.jpg" alt=""/>
+               <HomeImage />
                 <div className="home__row">
                     <Product 
                         id="9834759"
